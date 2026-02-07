@@ -1,6 +1,18 @@
 
 from sympy import mod_inverse
-
+#add encryption function 
+def Encryption(plain_text) : 
+    e=65537
+    plain_text = int(input("enter the number that you want to encrypted") 
+    #cypher_text =message**e mod(public_key) 
+    #generate a public_key  public_key=p*q 
+    p=int(input("enter the first prime number") 
+    q=int(input("Enter the secand prime number ") 
+    public_key =p*q 
+    #encrypte the plain_text  
+    cypher_text=plain_text**mod(public_key)  
+    return "the cypher_text  is {cyber_text} " 
+    
 def Decryption_RSA(c):
     n = int(input("Enter public key n : ")) 
     e = int(input("Enter the public tgexponent : "))
