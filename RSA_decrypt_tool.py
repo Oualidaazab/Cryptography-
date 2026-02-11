@@ -5,7 +5,7 @@ from sympy import mod_inverse
 class RSADecryptorGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("RSA Decryptor")
+        self.root.title("RSA Decryptor & by oualid aazab")
         self.root.geometry("700x600")
         self.root.resizable(True, True)
         
